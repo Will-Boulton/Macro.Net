@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroRules.Attributes", "MacroRules.Attributes\MacroRules.Attributes.csproj", "{1B579E45-DBBE-4E74-9369-51DCD342B6FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroRules.SourceGenerator", "MacroRules.SourceGenerator\MacroRules.SourceGenerator.csproj", "{84014917-15FA-47B1-975C-CBFB87E0870D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B579E45-DBBE-4E74-9369-51DCD342B6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B579E45-DBBE-4E74-9369-51DCD342B6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B579E45-DBBE-4E74-9369-51DCD342B6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B579E45-DBBE-4E74-9369-51DCD342B6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84014917-15FA-47B1-975C-CBFB87E0870D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84014917-15FA-47B1-975C-CBFB87E0870D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84014917-15FA-47B1-975C-CBFB87E0870D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84014917-15FA-47B1-975C-CBFB87E0870D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

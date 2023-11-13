@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+        <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    </PropertyGroup>
+    <!-- The following libraries include the source generator interfaces and types we need -->
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0-beta1.23472.1" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0-3.final" PrivateAssets="all" />
+    </ItemGroup>
+
+    <!-- This ensures the library will be packaged as a source generator when we use `dotnet pack` -->
+    <ItemGroup>
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true"
+              PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\MacroRules.Attributes\MacroRules.Attributes.csproj" />
+    </ItemGroup>
+</Project>
