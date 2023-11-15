@@ -8,9 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MacroRules.SourceGenerator\MacroRules.SourceGenerator.csproj"   OutputItemType="Analyzer"
-                        ReferenceOutputAssembly="false" />
-      <ProjectReference Include="..\MacroRules\MacroRules.csproj" />
+      <ProjectReference Include="..\Macro.Net.SourceGenerator\Macro.Net.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+      <ProjectReference Include="..\Macro.Net\Macro.Net.csproj" />
     </ItemGroup>
 
 </Project>

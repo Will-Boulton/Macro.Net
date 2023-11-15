@@ -9,9 +9,9 @@ namespace MacroRules.SourceGenerator;
 [Generator]
 public class MacroSourceGenerator : IIncrementalGenerator
 {
-    private const string MacroArgumentAttribute = "MacroRules.MacroArgumentAttribute";
-    private const string MacroAttribute = "MacroRules.MacroAttribute";
-    private const string MacroInstanceTypeMetadataName = "MacroRules.MacroInstance";
+    private const string MacroArgumentAttribute = "Macro.Net.MacroArgumentAttribute";
+    private const string MacroAttribute = "Macro.Net.MacroAttribute";
+    private const string MacroInstanceTypeMetadataName = "Macro.Net.MacroInstance";
     
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {

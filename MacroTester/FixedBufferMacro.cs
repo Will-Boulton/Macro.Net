@@ -1,4 +1,4 @@
-﻿using MacroRules;
+﻿using Macro.Net;
 
 namespace MacroRulesTester;
 

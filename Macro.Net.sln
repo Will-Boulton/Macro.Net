@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroRules", "MacroRules\MacroRules.csproj", "{1B579E45-DBBE-4E74-9369-51DCD342B6FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro.Net", "Macro.Net\Macro.Net.csproj", "{1B579E45-DBBE-4E74-9369-51DCD342B6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroRules.SourceGenerator", "MacroRules.SourceGenerator\MacroRules.SourceGenerator.csproj", "{84014917-15FA-47B1-975C-CBFB87E0870D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macro.Net.SourceGenerator", "Macro.Net.SourceGenerator\Macro.Net.SourceGenerator.csproj", "{84014917-15FA-47B1-975C-CBFB87E0870D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroRulesTester", "MacroRulesTester\MacroRulesTester.csproj", "{AD2135AF-3CC9-4CAA-88EE-7ADEA796F865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroTester", "MacroTester\MacroTester.csproj", "{AD2135AF-3CC9-4CAA-88EE-7ADEA796F865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
