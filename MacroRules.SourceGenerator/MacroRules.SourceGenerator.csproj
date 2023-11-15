@@ -20,6 +20,6 @@
               PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\MacroRules.Attributes\MacroRules.Attributes.csproj" />
+      <ProjectReference Include="..\MacroRules\MacroRules.csproj" />
     </ItemGroup>
 </Project>
